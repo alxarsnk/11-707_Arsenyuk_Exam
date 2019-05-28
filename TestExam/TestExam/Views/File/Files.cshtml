@@ -1,0 +1,27 @@
+﻿@model IEnumerable<TestExam.Models.File>
+@{
+    ViewData["Title"] = "Files";
+}
+
+<h2>Files</h2>
+
+<body>
+    
+    <h3>Ваши файлы</h3>
+    <a href="~/File/AddFile">Добавить файл</a>
+    <table>
+        <tr>
+            <td>Имя </td>
+            <td>Описание</td>
+
+            <td></td>
+        </tr>
+        @foreach (var file in Model)
+        {
+            <tr>
+                <td>@file.Name + " "</td>
+                <td>@file.ShortDescription</td>
+            </tr>
+        }
+    </table>
+ </body>
