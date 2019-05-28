@@ -1,0 +1,14 @@
+﻿@model File
+@{
+    ViewData["Title"] = "InfoFile";
+}
+
+<h2>InfoFile</h2>
+
+
+
+<h1>Info</h1>
+<h3>@Model.Name</h3><br />
+<label>@Model.ShortDescription</label><br />
+<label>@Model.Description</label><br />
+<a href="~/File/Download/?id=@Model.Id">Скачать</a>

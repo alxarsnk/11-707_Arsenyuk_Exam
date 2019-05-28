@@ -55,6 +55,20 @@ namespace TestExam.Controllers
             }
            return RedirectToAction("Files", "File");
         }
+
+        [HttpGet]
+        public IActionResult InfoFile(int id)
+        {
+            try
+            {
+                return View(_context.Files.First(x => x.Id == id));
+            }
+            catch
+            {
+                return RedirectToAction("Files", "File");
+            }
+        }
+
         [HttpGet]
         public IActionResult Download(int id)
         {

@@ -66,3 +66,4 @@ C:\Users\alxarsnk\source\repos\TestExam\TestExam\obj\Debug\netcoreapp2.1\Razor\V
 \\Mac\Home\Desktop\GitHubProject\11-707_Arsenyuk_Exam\TestExam\TestExam\obj\Debug\netcoreapp2.1\TestExam.csproj.CopyComplete
 \\Mac\Home\Desktop\GitHubProject\11-707_Arsenyuk_Exam\TestExam\TestExam\obj\Debug\netcoreapp2.1\Razor\Views\File\Files.g.cshtml.cs
 \\Mac\Home\Desktop\GitHubProject\11-707_Arsenyuk_Exam\TestExam\TestExam\obj\Debug\netcoreapp2.1\Razor\Views\File\AddFile.g.cshtml.cs
+\\Mac\Home\Desktop\GitHubProject\11-707_Arsenyuk_Exam\TestExam\TestExam\obj\Debug\netcoreapp2.1\Razor\Views\File\InfoFile.g.cshtml.cs
