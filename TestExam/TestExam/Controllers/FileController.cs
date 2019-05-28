@@ -49,7 +49,7 @@ namespace TestExam.Controllers
                     await file.UploadedFile.CopyToAsync(fileStream);
                 }
 
-                Models.File newFile = new Models.File{ Name = file.UploadedFile.FileName, Path = path, ShortDescription = file.ShortDescription, Description = file.Description };
+                Models.File newFile = new Models.File{ Name = file.UploadedFile.FileName, Path = path, ShortDescription = file.ShortDescription, Description = file.Description, Type = file.UploadedFile.ContentType };
                 _context.Files.Add(newFile);
                 _context.SaveChanges();
             }
@@ -59,12 +59,7 @@ namespace TestExam.Controllers
         public IActionResult Download(int id)
         {
             var file = _context.Files.First(x => x.Id == id);
-            return PhysicalFile(_appEnvironment.WebRootPath + file.Path, file.Name);
-        }
-
-        private IActionResult PhysicalFile(string v, object type, string name)
-        {
-            throw new NotImplementedException();
+            return PhysicalFile(_appEnvironment.WebRootPath + file.Path, file.Type, file.Name);
         }
     }
 

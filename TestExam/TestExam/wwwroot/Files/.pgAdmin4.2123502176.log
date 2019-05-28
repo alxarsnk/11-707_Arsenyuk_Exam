@@ -1,0 +1,27 @@
+ * Running on http://127.0.0.1:53226/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/May/2019 10:20:50] "GET /misc/ping?key=500c071f-b646-454c-8ea0-7009e3670cb1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:51] "GET /?key=500c071f-b646-454c-8ea0-7009e3670cb1 HTTP/1.1" 302 -
+127.0.0.1 - - [28/May/2019 10:20:58] "GET /browser/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:59] "GET /static/vendor/backgrid/backgrid.css?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:59] "GET /static/js/generated/pgadmin.css?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:59] "GET /static/vendor/require/require.min.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:59] "GET /static/js/generated/style.css?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:59] "GET /static/css/alertify.noanimation.css?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:59] "GET /static/js/generated/pgadmin_commons.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:59] "GET /static/js/generated/vendor.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:20:59] "GET /browser/browser.css?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /static/js/generated/app.bundle.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /static/js/generated/fonts/Roboto-Regular.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /static/js/generated/fonts/fontawesome-webfont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /browser/js/endpoints.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /tools/translations.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /browser/js/utils.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /browser/js/messages.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /browser/server/supported_servers.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /user_management/current_user.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /static/js/pgadmin.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /static/js/gettext.js?ver=40500 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:00] "GET /static/css/webcabin.overrides.css?v=1559028060920 HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:01] "GET /dashboard/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:01] "GET /browser/nodes/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2019 10:21:01] "POST /settings/store HTTP/1.1" 200 -
