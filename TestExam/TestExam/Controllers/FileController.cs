@@ -25,7 +25,10 @@ namespace TestExam.Controllers
 
         public IActionResult Files()
         {
-             return View(_context.Files);
+            List<Models.File> model = new List<Models.File>();
+            foreach (var file in _context.Files)
+                model.Add(new Models.File { Id = file.Id, Name = file.Name, ShortDescription = file.ShortDescription });
+            return View(model.AsEnumerable());
         }
 
         public IActionResult AddFile()
@@ -52,7 +55,17 @@ namespace TestExam.Controllers
             }
            return RedirectToAction("Index", "Home");
         }
+        [HttpGet]
+        public IActionResult Download(int id)
+        {
+            var file = _context.Files.First(x => x.Id == id);
+            return PhysicalFile(_appEnvironment.WebRootPath + file.Path, file.Name);
+        }
 
+        private IActionResult PhysicalFile(string v, object type, string name)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

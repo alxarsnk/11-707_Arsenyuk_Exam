@@ -19,8 +19,9 @@
         @foreach (var file in Model)
         {
             <tr>
-                <td>@file.Name + " "</td>
+                <td>@file.Name +</td>
                 <td>@file.ShortDescription</td>
+                <td><a href="~/File/Download/?id@Model.Id">Скачать</a></td>
             </tr>
         }
     </table>
