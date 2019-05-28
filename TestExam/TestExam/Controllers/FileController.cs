@@ -41,9 +41,9 @@ namespace TestExam.Controllers
         {
             if (file.UploadedFile != null)
             {
-                // путь к папке Files
+                
                 string path = "/Files/" + file.UploadedFile.FileName;
-                // сохраняем файл в папку Files в каталоге wwwroot
+                
                 using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
                 {
                     await file.UploadedFile.CopyToAsync(fileStream);
