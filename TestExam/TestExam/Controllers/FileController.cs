@@ -53,7 +53,7 @@ namespace TestExam.Controllers
                 _context.Files.Add(newFile);
                 _context.SaveChanges();
             }
-           return RedirectToAction("Index", "Home");
+           return RedirectToAction("Files", "File");
         }
         [HttpGet]
         public IActionResult Download(int id)
